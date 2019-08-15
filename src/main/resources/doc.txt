@@ -1,6 +1,0 @@
-打开一个cmd窗口，使用cd命令切换到指定目录（D:\devTools64\redis-2.4.5）运行 redis-server.exe redis.conf 
-
-重新打开一个cmd窗口，使用cd命令切换到指定目录（D:\devTools64\redis-2.4.5）运行 redis-cli.exe -h 127.0.0.1 -p 6379，
-其中 127.0.0.1是本地ip，6379是redis服务端的默认端口。运行成功如下图所示。
-
-config set requirepass 123456
